@@ -30,21 +30,6 @@
         tools:targetApi="honeycomb"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id"/>
-        <activity android:name="com.facebook.FacebookActivity"
-            tools:replace="android:theme"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name" />
-        <provider android:authorities="com.facebook.app.FacebookContentProvider1173822826028769"
-            android:name="com.facebook.FacebookContentProvider"
-            android:exported="true"/>
-        <meta-data android:name="com.facebook.sdk.ApplicationName" android:value="@string/facebook_app_name"/>
-
-
-
 
         <!-- The main Corona activity that runs the Corona project. -->
         <activity android:name="com.ansca.corona.CoronaActivity"
