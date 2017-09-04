@@ -9,8 +9,7 @@
 
 #import <CoronaRuntime.h>
 #import <CoronaLua.h>
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKShareKit/FBSDKShareKit.h>
+
 @implementation AppCoronaDelegate
 
 - (void)willLoadMain:(id<CoronaRuntime>)runtime
@@ -19,17 +18,6 @@
 
 - (void)didLoadMain:(id<CoronaRuntime>)runtime
 {
-}
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                    didFinishLaunchingWithOptions:launchOptions];
-}
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                                          openURL:url
-                                                sourceApplication:sourceApplication
-                                                       annotation:annotation];
 }
 #pragma mark UIApplicationDelegate methods
 
