@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">Corona tester</string>
-    <string name="facebook_app_id">1588880691401715</string>
-    <string name="facebook_app_name">Corona tester</string>
+    <string name="app_name">App</string>
 
 </resources>
